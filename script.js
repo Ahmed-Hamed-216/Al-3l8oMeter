@@ -111,13 +111,16 @@ function showResult() {
     
     let resultMessage = '';
     if (totalScore >= 80) {
-        resultMessage = 'مبروك! أنت أكـــبـــر علق موجود.';
+        resultMessage = 'مبروك! انت سيد العلقية بلا منازع. دي حاجة تتحسد عليها فعلاً! 👑';
         document.body.style.background = "linear-gradient(135deg, #e74c3c, #c0392b)";
+    } else if (totalScore >= 70) {
+        resultMessage = 'عاش يا ملك العلقية! مش ناقصك غير لمسة صغيرة وتبقى علق رسمي.';
+        document.body.style.background = "linear-gradient(135deg, #ffcc00, #f39c12)";
     } else if (totalScore >= 50) {
-        resultMessage = 'جيد جداً! انت علق علي قدك استمر عشان تبقي علق كبيييير.';
+        resultMessage = 'ص علوقي؟ كويس، بس لسه في ناس متفوقة عليك في العلقية';
         document.body.style.background = "linear-gradient(135deg, #ffcc00, #f39c12)";
     } else {
-        resultMessage = 'لا انت تمام انت ييجي منك ... استمر.';
+        resultMessage = 'مستواك في العلقية تعبان جداً، حاول تركز وتتعلم من الكبار!';
         document.body.style.background = "linear-gradient(135deg, #2ecc71, #27ae60)";
     }
 
