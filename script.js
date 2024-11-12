@@ -117,7 +117,7 @@ function showResult() {
         resultMessage = 'عاش يا ملك العلقية! مش ناقصك غير لمسة صغيرة وتبقى علق رسمي.';
         document.body.style.background = "linear-gradient(135deg, #ffcc00, #f39c12)";
     } else if (totalScore >= 50) {
-        resultMessage = 'ص علوقي؟ كويس، بس لسه في ناس متفوقة عليك في العلقية';
+        resultMessage = 'نص علوقي؟ كويس، بس لسه في ناس متفوقة عليك في العلقية';
         document.body.style.background = "linear-gradient(135deg, #ffcc00, #f39c12)";
     } else {
         resultMessage = 'مستواك في العلقية تعبان جداً، حاول تركز وتتعلم من الكبار!';
